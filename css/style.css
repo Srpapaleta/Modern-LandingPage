@@ -170,3 +170,70 @@ header{
 .image-cover img{
     width: 550px;
 }
+
+/*general styles*/
+
+.container-card-primary{
+    padding-top: 100px;
+}
+
+.card-primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text-card-primary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-card-primary p{
+    color: var(--color-text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text-paragraph);
+    font-weight: 500;
+}
+
+.text-card-primary h1{
+    font-size: var(--text-size-title);
+    font-weight: 600;
+    color: var(--color-text-secundary);
+}
+
+.container-box-cardprimary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box-card-primary{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+
+.box-card-primary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box-shadow-primary);
+}
+
+.box-card-primary h2{
+    font-size: var(--text-title-card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box-card-primary p{
+    margin-top: 20px;
+}
+
+.box-card-primary img{
+    width: 100%;
+    height: 200px;
+}
